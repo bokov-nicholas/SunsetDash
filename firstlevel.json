@@ -2,13 +2,13 @@
   "format": "nicholas-platformer-level-v1",
   "level": {
     "id": "adventure_start_001",
-    "name": "Adventure Start",
+    "name": "Minecraft Madness",
     "author": "Nicholas",
     "notes": "A very simple starter level for testing movement, hazards, boosts, and collectibles.",
     "theme": {
-      "background": "green",
-      "ground": "gray",
-      "accent": "yellow"
+      "background": "yellow",
+      "ground": "blue",
+      "accent": "green"
     },
     "music": {
       "track": "test-track-01",
