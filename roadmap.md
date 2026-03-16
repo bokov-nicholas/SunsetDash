@@ -4,10 +4,9 @@ This is going to be a platformer that will support import of GD levels, but with
 easier less stressful movement and eventual multiplayer support.
 
 ## Phase 0 — Setup
-- [ ] Pick the project name
-- [ ] Create a GitHub repo
-- [ ] Create a local project folder
-- [ ] Install Node.js
+- [X] Pick the project name
+- [X] Create a GitHub repo
+- [ ] Configure codespaces to have Node.js
 - [ ] Create a TypeScript project
 - [ ] Add Phaser
 - [ ] Run the starter app in a browser
