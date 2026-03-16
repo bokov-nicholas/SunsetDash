@@ -1,0 +1,69 @@
+{
+  "format": "nicholas-platformer-level-v1",
+  "level": {
+    "id": "adventure_start_001",
+    "name": "Adventure Start",
+    "author": "Nicholas",
+    "notes": "A very simple starter level for testing movement, hazards, boosts, and collectibles.",
+    "theme": {
+      "background": "green",
+      "ground": "gray",
+      "accent": "yellow"
+    },
+    "music": {
+      "track": "test-track-01",
+      "offset_ms": 0
+    },
+    "player": {
+      "spawn": {
+        "x": 40,
+        "y": 260
+      },
+      "mode": "cube"
+    },
+    "camera": {
+      "follow_player": true
+    },
+    "objects": [
+      {
+        "id": "ground_001",
+        "type": "platform",
+        "x": 0,
+        "y": 300,
+        "width": 500,
+        "height": 40
+      },
+      {
+        "id": "spike_001",
+        "type": "spike",
+        "x": 400,
+        "y": 280,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "id": "pad_001",
+        "type": "jump_pad",
+        "x": 600,
+        "y": 290,
+        "width": 30,
+        "height": 10,
+        "strength": 1.2
+      },
+      {
+        "id": "coin_001",
+        "type": "coin",
+        "x": 800,
+        "y": 260
+      },
+      {
+        "id": "goal_001",
+        "type": "goal",
+        "x": 920,
+        "y": 240,
+        "width": 40,
+        "height": 60
+      }
+    ]
+  }
+}
