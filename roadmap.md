@@ -1,4 +1,7 @@
-# Nicholas Game Checklist
+# Sunset Dash Checklist
+
+This is going to be a platformer that will support import of GD levels, but with 
+easier less stressful movement and eventual multiplayer support.
 
 ## Phase 0 — Setup
 - [ ] Pick the project name
@@ -117,6 +120,8 @@
 - [ ] 10. Make it prettier
 
 ## Rule for the whole project
-- [ ] Keep every new feature small
+- [ ] Keep every new feature small, well documented with code comments, and easy for kids to understand
 - [ ] Make the game playable again after every small chunk
 - [ ] Do not wait for perfection before testing
+- [ ] Avoid writing functions that are used only once-- inline that code instead
+- [ ] Wherever possible, use existing libraries to reduce the amount of new code that must be written
