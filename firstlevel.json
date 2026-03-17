@@ -6,9 +6,9 @@
     "author": "Nicholas",
     "notes": "A very simple starter level for testing movement, hazards, boosts, and collectibles.",
     "theme": {
-      "background": "yellow",
-      "ground": "blue",
-      "accent": "green"
+      "background": "#ffff00",
+      "ground": "#0000ff",
+      "accent": "#00ff00"
     },
     "music": {
       "track": "test-track-01",

@@ -1,0 +1,22 @@
+{
+  "name": "sunsetdash",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "npx jest --config jest.config.cjs --passWithNoTests"
+  },
+  "dependencies": {    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.14.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.3.1"
+  }
+}

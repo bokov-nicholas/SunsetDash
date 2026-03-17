@@ -124,3 +124,11 @@ easier less stressful movement and eventual multiplayer support.
 - [ ] Do not wait for perfection before testing
 - [ ] Avoid writing functions that are used only once-- inline that code instead
 - [ ] Wherever possible, use existing libraries to reduce the amount of new code that must be written
+
+## Process rules (mandatory)
+- [ ] Always run tests before finishing any work: `npm test`
+- [ ] Never merge or mark work done while tests are failing unless the bug is documented in `BUG_REPORT.md` and triaged
+- [ ] Never ship code that is broken or non-compiling
+- [ ] Always fix existing failing tests or broken code first before implementing new features
+- [ ] Update this roadmap with each significant implementation step to keep it in sync with actual work
+
