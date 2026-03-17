@@ -13,29 +13,29 @@ easier less stressful movement and eventual multiplayer support.
 - [ ] Put the game online on Cloudflare Pages
 
 ## Phase 1 — Earliest Playable MVP
-- [ ] Show a player cube on screen
-- [ ] Add gravity
-- [ ] Add left movement
-- [ ] Add right movement
-- [ ] Add stop
-- [ ] Add jump
-- [ ] Add a floor
-- [ ] Make the camera follow the player
-- [ ] Add one spike
-- [ ] Make spikes cause death
-- [ ] Add restart after death
-- [ ] Add a goal object
-- [ ] Make touching the goal win the level
+- [x] Show a player cube on screen
+- [x] Add gravity
+- [x] Add left movement
+- [x] Add right movement
+- [x] Add stop
+- [x] Add jump
+- [x] Add a floor
+- [x] Make the camera follow the player
+- [x] Add one spike
+- [x] Make spikes cause death
+- [x] Add restart after death
+- [x] Add a goal object
+- [x] Make touching the goal win the level
 
 ## Phase 2 — Load a Level From Data
-- [ ] Read the JSON level file
-- [ ] Spawn the player from the file
-- [ ] Build platforms from the file
-- [ ] Build spikes from the file
-- [ ] Build jump pads from the file
-- [ ] Build coins from the file
-- [ ] Build the goal from the file
-- [ ] Load level colors from the file
+- [x] Read the JSON level file
+- [x] Spawn the player from the file
+- [x] Build platforms from the file
+- [x] Build spikes from the file
+- [x] Build jump pads from the file
+- [x] Build coins from the file
+- [x] Build the goal from the file
+- [x] Load level colors from the file
 
 ## Phase 3 — Make It Feel More Like Classic GD
 - [ ] Make the player cube look more GD-like

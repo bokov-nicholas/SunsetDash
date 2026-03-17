@@ -20,6 +20,8 @@ If you see an error about `ts-node`, make sure the repo has a valid Jest config:
 - Do not finish work with failing tests/broken compile unless logged in `BUG_REPORT.md`.
 - Fix existing tests/bugs before adding new features.
 - Keep `roadmap.md` synced with actual implementation status each session.
+- Update `roadmap.md` on every behavior change and include completed checkbox updates in PR notes.
+- `roadmap.md` is canonical; do not use another file for done/remaining status without cross-linking.
 
 ## Controls
 
