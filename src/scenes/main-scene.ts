@@ -69,6 +69,11 @@ export class MainScene extends Phaser.Scene {
   }
 
   create() {
+    // Reset temporary runtime state to ensure restart works correctly.
+    this.spiked = false;
+    this.won = false;
+    this.coinsCollected = 0;
+
     const level = (levelData as LevelJson).level;
     const theme = (levelData as any).level.theme ?? { background: '#1d1d1d', ground: '#0000ff', accent: '#00ff00' };
 

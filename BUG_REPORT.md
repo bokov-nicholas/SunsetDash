@@ -18,3 +18,10 @@ Example:
   - Actual: jump v of 720
   - Status: open
   - Plan: clamp pad strength in `MainScene.handleJumpPad()` to [1.0..1.5]
+
+- 2026-03-17: R restart loses keyboard input after death/win
+  - Step: die or win, press R
+  - Expected: player respawns and controls still work
+  - Actual: player respawns but movement keys no longer respond
+  - Status: open
+  - Plan: ensure `this.cursors` and `this.restartKey` are correctly reinitialized or persist across restarts

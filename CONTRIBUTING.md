@@ -16,3 +16,8 @@ This repo follows a strict “always green and clean” workflow.
 ## Code style
 - Keep code small, readable, and comment major logic.
 - Avoid extra abstraction until functionality is stable.
+
+## Issue workflow
+- Use GitHub Issues to track bugs.
+- Link every `BUG_REPORT.md` entry to a GitHub issue when one is created.
+- Any known regressions must be logged in `BUG_REPORT.md` before merging.
