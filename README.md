@@ -35,6 +35,21 @@ If you see an error about `ts-node`, make sure the repo has a valid Jest config:
 
 Supported object types: `platform`, `spike`, `goal`, `coin`, `jump_pad`.
 
+Metadata fields in `level`:
+- `id` (string)
+- `name` (string)
+- `author` (string)
+- `notes` (string)
+- `theme` (`background`, `ground`, `accent` color hex strings)
+- `music` (`track`, `offset_ms` number)
+
+Import path for Geometry Dash .gmd files:
+- `k2` maps to `name`
+- `k3` maps to `notes` (base64-decoded if applicable)
+- `k5` maps to `author`
+- `k1` maps to `id`
+- `k4` is the compressed object data (zlib/raw deflate + base64 URL-safe)
+
 ## Notes
 
 - Keyboard-only start, minimal code, easy to extend.
