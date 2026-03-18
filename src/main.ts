@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { MainScene } from './scenes/main-scene';
+import { setupGmdControls } from './gmd-ui';
 
 const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -17,4 +18,12 @@ const config: Phaser.Types.Core.GameConfig = {
   }
 };
 
-new Phaser.Game(config);
+const game = new Phaser.Game(config);
+
+(window as any).game = game;
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('load', () => {
+    setupGmdControls();
+  });
+}

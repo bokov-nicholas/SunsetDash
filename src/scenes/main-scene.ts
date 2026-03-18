@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
-import levelData from '../../firstlevel.json';
+import fallbackLevelData from '../../firstlevel.json';
+import { LevelJson } from '../gmd-importer';
 
 type LevelObject = {
   id: string;
@@ -74,8 +75,11 @@ export class MainScene extends Phaser.Scene {
     this.won = false;
     this.coinsCollected = 0;
 
-    const level = (levelData as LevelJson).level;
-    const theme = (levelData as any).level.theme ?? { background: '#1d1d1d', ground: '#0000ff', accent: '#00ff00' };
+    const runtimeLevelData = (window as any).__sunsetdash_level_data as LevelJson | undefined;
+    const effectiveLevelData = runtimeLevelData ?? (fallbackLevelData as LevelJson);
+
+    const level = effectiveLevelData.level;
+    const theme = level.theme ?? { background: '#1d1d1d', ground: '#0000ff', accent: '#00ff00' };
 
     const backgroundColor = parseColor(theme.background, 0x1d1d1d);
     const groundColor = parseColor(theme.ground, 0x0000ff);
